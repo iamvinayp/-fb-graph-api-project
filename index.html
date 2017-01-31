@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>jQuery Ajax</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="jquery project">
+    <meta name="author" content="Vinay Patil">
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-inverse navbar-fixed-top">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-target="#mainNav" data-toggle="collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse" id="mainNav">
+                <ul class="nav navbar-nav">
+                    <li><a href="#" id="feed">Feed</a></li>
+                    <li><a href="#" id="profile">Profile</a></li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                <div id="profileinfo">
+                    <span class="h4">Profile info</span><br><br>
+                        <ul class="list-group">
+                            <li class="list-group-item"><b>Name    :</b><span id="name"></span></li>
+                            <li class="list-group-item"><b>Email   :</b><span id="email"></span></li>
+                            <li class="list-group-item"><b>Birthday:</b><span id="bday"></span></li>
+                            <li class="list-group-item"><b>Hometown:</b><span id="hometown"></span></li>
+                            <li class="list-group-item"><b>School  :</b><span id="school"></span></li>
+                            <li class="list-group-item"><b>College :</b><span id="college"></span></li>
+                            <li class="list-group-item"><b>Location :</b><span id="location"></span></li>
+                        </ul>
+                </div>
+
+                <div id="feedinfo">
+                    <div id="feedDiv0">
+                        <span id="story0"></span><br>
+                        <span id="updatedtime0"></span><br>
+                        <!--<img src="" id="link0"><br>-->
+                        <span id="linkname0"></span>
+                        <br><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
+</body>
+</html>
