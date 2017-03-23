@@ -1,0 +1,10 @@
+FB Graph API Project:
+
+Features of the project:
+Using facebook graph API created a simple jquery website containing following pages
+
+1.Profile page - it contains your basic details as given on facebook and as returned by its API.
+2.Feed page    - it contains the recent posts made by you on facebook
+
+Technologies Used: HTML, CSS, JavaScript, Bootstrap, jQuery
+
